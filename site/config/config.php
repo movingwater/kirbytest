@@ -31,7 +31,7 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 
 c::set('autogit.branch',         'live');
 c::set('autogit.remote.name',    'kirbytest');
-c::set('autogit.remote.branch',  'master'); // same as autogit.branch option
+c::set('autogit.remote.branch',  'live'); // same as autogit.branch option
 c::get('autogit.webhook.secret', 'jkergjjiopsbklj58efwef-75rfgw4');
 c::get('autogit.webhook.url',    'autogit');
 c::set('autogit.panel.user',     false);
